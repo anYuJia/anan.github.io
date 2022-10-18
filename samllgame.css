@@ -1,0 +1,115 @@
+body
+{
+    background-image: url(w.jpg);
+    background-attachment: fixed;
+    cursor:url(Arrow.cur), pointer;
+}
+#kaishi
+{
+    color: blanchedalmond;
+    font-size: 60px;
+    font-family: "楷体";
+    position: fixed;
+    top:30%;
+    left:38%;
+}
+#kaishi input
+{
+    font-size: 40px;
+    width: 200px;
+    height: 60px;
+    background-color: transparent;
+    border-style: none;
+    text-align: left;
+}
+#shuomingjiemian
+{
+    font-size: 30px;
+    height: 50%;
+    width: 56%;
+    font-family: "宋体";
+    color: pink;
+    position: fixed;
+    top:28%;
+    left: 22%;
+    border: 3px dashed yellow;
+    border-radius: 10%;
+    display: none;
+}
+.fanhui
+{
+    width: 60px;
+    height: 35px;
+    position: fixed;
+    top:20px;
+    left: 10px;
+    color:skyblue;
+    background-color: greenyellow;
+    border-radius: 10%;
+}
+#kaishi select
+{
+    color: greenyellow;
+    background-color: transparent;
+    font-size: 30px;
+    border-radius: 4px;
+    transition: box-shadow 0.25s ease;
+}
+#kaishi select option{background-color: transparent;}
+#kaishi select:hover {box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);}
+#jiamian
+{
+    border: 1px solid yellow;
+    width: 0;
+    height: 0;
+    margin: 0%;
+    border-spacing: 0;
+}
+#youxi
+{
+    position: absolute;
+    top:200px;
+    left: 300px;
+}
+td
+{
+    margin: 0;
+}
+#defen
+{
+    position:fixed;
+    width: 150px;
+    top:200px;
+    left: 100px;
+    font-size: 30px;
+    font-family: "宋体";
+    background-color: burlywood;
+    color: cyan;
+    border-radius: 20%;
+}
+#jiesu{display: none;width: 200px;}
+#zzfenshu
+{
+    position:absolute;
+    color: rgb(140, 18, 151);
+    background-color: transparent;
+    font-size: 50px;
+    height: 50px;
+    font-family: "宋体";
+    top:350px;
+    left: 550px;
+}
+#game_over_button
+{
+    position: absolute;
+    top:500px;
+    left: 600px;
+}
+#game_over_button button
+{
+    color: aqua;
+    background-color: yellow;
+    font-size: 40px;
+    width: 200px;
+    border-radius: 10%;
+}

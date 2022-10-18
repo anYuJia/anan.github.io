@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="smallgame.js"></script>
+    <link rel="stylesheet" type="text/css" href="samllgame.css">
+</head>
+<body>
+    <audio src="chumo.mp3" loop="loop" id="guicu" ></audio>
+    <audio src="ganma.m4a"  id="dianji"></audio>
+    <div id="kaishi">
+        <p>锤锤坤坤</p>
+        <input id="buttonkaishi" type="button" onclick="click_kaishi()" value="开始">
+        <br>
+        <input id="shezhinandu" onclick="shengchengditu()" value="设置难度">
+        <select id="nandu_r">
+            <option value="5" selected="selected">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+        </select>
+        <select id="nandu_w">
+            <option value="5" selected="selected">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+        </select>
+        <br>
+        <input id="buttonshuoming" type="button" onclick="click_shuoming()" value="游戏说明">
+    </div>
+    <div id="shuomingjiemian">
+        <p>游戏会随着你的分数增加而变得更快，你需要点击每一个发亮的方块，然后得分，点错了就没了</p>
+        <button class="fanhui" onclick="fanhui()">返回</button>
+    </div>
+    <div id="youxi">
+        <button class="fanhui" onclick="fanhui()">返回</button>
+        <table id="jiamian">
+        </table>
+        <p id="defen"></p>
+    </div>
+    <div id="jiesu">
+        <p id="zzfenshu"></p>
+        <div id="game_over_button">
+            <button onclick="click_kaishi()" class="game_over_kaishi_button">重新开始</button>
+            <button onclick="fanhui()" class="game_over_fanhui_button">返回</button>
+        </div>
+    </div>
+</body>
+</html>
